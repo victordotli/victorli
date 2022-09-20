@@ -16,9 +16,9 @@ contact:
   shadertoy: https://www.shadertoy.com/user/viclw17
 
 
-languages:
-  - idiom: English
-  - idiom: Mandarin
+# languages:
+#   - idiom: English
+#   - idiom: Mandarin
 
 # education:
 #   - degree: MSc in Informatics
@@ -30,7 +30,7 @@ languages:
 #     university: Ionian University
 
 skills:
-  - category: 
+  - category: Technical
     skill: 
       - Unreal Engine
       - Shader Dev. (GLSL/HLSL)

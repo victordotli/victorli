@@ -2,9 +2,10 @@
 {% if freelance %}
 <section class="volunteering">
     <h2 class="title">Freelance</h2>
-    {% for vol in freelance %}
+    {% for free in freelance %}
     <div class="volunteering-item">
-        <div class="details">{{vol.details}}</div>
+        <!-- <div class="role">{{free.role}}</div> -->
+        <div class="details">{{free.details}}</div>
     </div>
     
     {% endfor %}

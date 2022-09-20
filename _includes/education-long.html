@@ -1,0 +1,22 @@
+{% assign education-long = site.data.data.education-long %}
+{% if education-long %}
+<!-- same css as volunteering -->
+<section class="volunteering">
+    <h2 class="title">Education</h2>
+    {% for edu in education-long %}
+        <div class="volunteering-item">
+            <div class="role">
+                <i data-feather="book" style="width: 18px; height: 18px; vertical-align: middle;"></i>
+                {{edu.degree}}
+            </div>
+            <div class="organization">
+                <i data-feather="map-pin" style="width: 16px; height: 16px; vertical-align: middle;"></i>
+                {{edu.university}}
+                <span class="time">{{edu.time}}</span>
+            </div>
+            <div class="details">{{edu.details}}</div>    
+        </div>
+        
+    {% endfor %}
+</section>
+{% endif %}

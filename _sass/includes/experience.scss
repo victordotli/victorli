@@ -17,6 +17,7 @@
         }
         .details {
             @include body-text;
+            padding-left: 5px;
         }
         .technologies {
             @include body-text;

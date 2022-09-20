@@ -9,16 +9,24 @@
         svg {
             width: 18px;
             display: inline-block;
+            padding-right: 4px;
+            // padding-top: 2px;
             color: var(--fg-color);
         }
         a {
             text-decoration: none;
-            padding-top: 4px;
-            padding-left: 4px;
+            // padding-top: 4px;
+            // padding-left: 4px;
             @include body-text;
             &:hover {
                 text-decoration: underline;
             }
+        }
+        p {
+            text-decoration: none;
+            padding: 0px;
+            margin: 0px;
+            @include body-text;
         }
     }
 }

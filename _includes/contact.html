@@ -5,7 +5,7 @@
     {% if contact.email %}
         <div class="contact-item">
             <i data-feather="mail"></i>
-            <a href="#">
+            <a href="mailto:viclw17@gmail.com">
                 {{contact.email}}
             </a>
         </div>
@@ -19,37 +19,79 @@
             </a>
         </div>
     {% endif %}
+
+    {% if contact.phone %}
+    <div class="contact-item">
+        <i data-feather="map-pin"></i>
+        <a href="#">
+            Vancouver, BC, Canada
+        </a>
+    </div>
+    {% endif %}
 </section>   
 
 <section class="contact">
+    
+    
     <div class="title">Links</div>
+    {% if contact.blog %}
+    <div class="contact-item">
+        <i data-feather="book-open"></i>
+        <a href="{{contact.blog}}" target="_blank">
+            Technical Blog
+        </a>
+    </div>
+    {% endif %}
+    
+
     {% if contact.linkedin %}
         <div class="contact-item">
             <i data-feather="linkedin"></i>
-            <a href="https://linkedin.com/in/{{contact.linkedin}}">
+            <a href="https://linkedin.com/in/{{contact.linkedin}}" target="_blank">
                 Linkedin
             </a>
         </div>
     {% endif %}
 
-    {% if contact.blog %}
-    <div class="contact-item">
-        <i data-feather="book-open"></i>
-        <a href="{{contact.blog}}">
-            Technical Blog
-        </a>
-    </div>
-    {% endif %}
 
     {% if contact.github %}
         <div class="contact-item">
             <i data-feather="github"></i>
-            <a href="https://github.com/{{contact.github}}">
+            <a href="https://github.com/{{contact.github}}" target="_blank">
                 Github
             </a>
         </div>
     {% endif %}
+    
+    
+    {% if contact.artstation %}
+    <div class="contact-item">
+        <i data-feather="image"></i>
+        <a href="{{contact.artstation}}" target="_blank">
+            Artstation
+        </a>
+    </div>
+    {% endif %}
+    
+    
+    {% if contact.shadertoy %}
+    <div class="contact-item">
+        <i data-feather="box"></i>
+        <a href="{{contact.shadertoy}}" target="_blank">
+            Shadertoy
+        </a>
+    </div>
+    {% endif %}
+    
 
+    {% if contact.instagram %}
+    <div class="contact-item">
+        <i data-feather="instagram"></i>
+        <a href="{{contact.instagram}}" target="_blank">
+            Instagram
+        </a>
+    </div>
+    {% endif %}
 
     <!-- {% if contact.twitter %}
         <div class="contact-item">
@@ -59,43 +101,15 @@
             </a>
         </div>
     {% endif %} -->
-    
-    
-    
-    {% if contact.artstation %}
-    <div class="contact-item">
-        <i data-feather="image"></i>
-        <a href="{{contact.artstation}}">
-            Artstation
-        </a>
-    </div>
-    {% endif %}
-    
-    {% if contact.shadertoy %}
-    <div class="contact-item">
-        <i data-feather="box"></i>
-        <a href="{{contact.shadertoy}}">
-            Shadertoy
-        </a>
-    </div>
-    {% endif %}
 
-    {% if contact.instagram %}
-    <div class="contact-item">
-        <i data-feather="instagram"></i>
-        <a href="{{contact.instagram}}">
-            Instagram
-        </a>
-    </div>
-    {% endif %}
-    
-    {% if contact.gitlab %}
+    <!-- {% if contact.gitlab %}
         <div class="contact-item">
             <i data-feather="gitlab"></i>
-            <a href="https://gitlab.com/{{contact.gitlab}}">
+            <a href="https://gitlab.com/{{contact.gitlab}}" target="_blank">
                 {{contact.gitlab}}
             </a>
         </div>
-    {% endif %}
+    {% endif %} -->
+
 </section>
 {% endif %}

@@ -19,32 +19,72 @@
             </a>
         </div>
     {% endif %}
+</section>   
+
+<section class="contact">
+    <div class="title">Links</div>
+    {% if contact.linkedin %}
+        <div class="contact-item">
+            <i data-feather="linkedin"></i>
+            <a href="https://linkedin.com/in/{{contact.linkedin}}">
+                Linkedin
+            </a>
+        </div>
+    {% endif %}
 
     {% if contact.github %}
         <div class="contact-item">
             <i data-feather="github"></i>
             <a href="https://github.com/{{contact.github}}">
-                {{contact.github}}
+                Github
             </a>
         </div>
     {% endif %}
 
-    {% if contact.linkedin %}
-        <div class="contact-item">
-            <i data-feather="linkedin"></i>
-            <a href="https://linkedin.com/in/{{contact.linkedin}}">
-                {{contact.linkedin}}
-            </a>
-        </div>
-    {% endif %}
 
     {% if contact.twitter %}
         <div class="contact-item">
             <i data-feather="twitter"></i>
             <a href="https://twitter.com/{{contact.twitter}}">
-                {{contact.twitter}}
+                Twitter
             </a>
         </div>
+    {% endif %}
+
+    {% if contact.instagram %}
+    <div class="contact-item">
+        <i data-feather="instagram"></i>
+        <a href="{{contact.instagram}}">
+            Instagram
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.blog %}
+    <div class="contact-item">
+        <i data-feather="book-open"></i>
+        <a href="{{contact.blog}}">
+            Technical Blog
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.artstation %}
+    <div class="contact-item">
+        <i data-feather="image"></i>
+        <a href="{{contact.artstation}}">
+            Artstation
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.shadertoy %}
+    <div class="contact-item">
+        <i data-feather="box"></i>
+        <a href="{{contact.shadertoy}}">
+            Shadertoy
+        </a>
+    </div>
     {% endif %}
 
     {% if contact.gitlab %}

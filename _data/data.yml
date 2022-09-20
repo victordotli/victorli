@@ -1,108 +1,175 @@
-name: John Doe
+name: Victor Li
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: viclw17@gmail.com
+  github: viclw17
+  linkedin: viclw17
+  phone: 7788349370
   gitlab: 
-  twitter: 
+  twitter: viclw17
+  instagram: https://www.instagram.com/viclw17/
+  blog: https://viclw17.github.io/
+  artstation: https://viclw17.artstation.com/
+  shadertoy: https://www.shadertoy.com/user/viclw17
+
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Mandarin
 
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+# education:
+#   - degree: MSc in Informatics
+#     time: 2014-2016
+#     university: Ionian University
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+#   - degree: BSc in Computer Science
+#     time: 2010-2014
+#     university: Ionian University
 
 skills:
-  - category: Backend
+  - category: 
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+      - Unreal Engine
+      - Shader Dev. (GLSL/HLSL)
+      - DCC - (Maya/Blender)
+      - Perforce / Git
+      - Python
+      - C/C++
+      - Unity
+      - Web & Graphic Design
+
+  # - category: Frontend
+  #   skill:
+  #     - React
+  #     - Typescript
+  # - category: DevOps
+  #   skill:
+  #     - Docker
+  #     - Kubernetes 
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Unreal Engine Developer and Technical Artist with great passion and production experience for game development, real-time virtual production and computer graphics research. Experienced in working closely with both artists and engineers to implement and optimize digital assets, tackle rendering and pipeline problems and push for a better workflow and production quality. 
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Senior Unreal Engine Technical Director
+    time: 2022
+    company: Method Studio / Company 3
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
+      - Provide Unreal Engine technical support for real-time CG production <br>
+      - R&D workflow and pipeline tools <br>
+      - Support Technical Artist on troubleshooting rendering issues <br>
+
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Senior Unreal Engine Technical Director 
+    time: 2021 – 2022
+    company: Versatile Media Ltd
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      - Provide Unreal Engine technical support for all departments (Mocap, Look Dev, Asset, Animation) during film - production <br>
+      - Manage film projects' shot construction and asset implementation; support team on utilizing Unreal Engine Sequencer - and Take Recorder <br>
+      - Lead R&amp;D tasks for improving and automating real-time virtual production workflow <br>
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
-
-projects:
-  - title: Cool Project 
-    link: #
+  - role: Unreal Engine Technical Artist
+    time: 2020 – 2021
+    company: Versatile Media Ltd
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+        - Build shaders, material libraries, real-time VFX and rendering workflows for Look Dev team and Asset team <br>
+        - Develop production pipeline tools and plugins for Unreal Engine using Blueprint, Python and C++ <br>
+        - Profile and optimize Unreal Engine scene to troubleshoot rendering and Mocap performance issues <br>
+        - Facilitate AI department on machine learning R&amp;D for facial performance capture <br>
 
-  - title: Cool Project 
-    link: #
+
+  - role: Technical Artist
+    time: 2019 – 2020
+    company: IGG Canada
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+        - Provide pipeline automation support using Unreal Engine Blueprint and Python API for game project cinematic production <br>
+        - Maintain and optimize pipeline tools and troubleshoot rendering issues <br>
 
-# Volunteering
+
+  - role: Software Engineer (Graphics & Rendering)
+    time: 2018 – 2019
+    company: Archiact
+    details: |
+        - Work with Unreal Engine for PC (HTC Vive/Oculus Rift), console (PSVR) and mobile (Oculus Quest) VR game development <br>
+        - Create and optimize shaders and materials (GLSL/HLSL) <br>
+        - Create game VFX in Unreal Engine with various DCC (Maya/Blender/Houdini) <br>
+        - Profile games for better performance with RenderDoc and RazorGPU <br>
+        - Optimize game assets for various VR hardware and shipping platforms <br>
+        - Collaborate with engineers and designers on game assets implementation (Blueprint/C++) <br>
+
+
+  - role: Technical Artist
+    time: 2017 – 2018
+    company: Archiact
+    details: |
+      - Work inside Unity and Unreal Engine on PC and mobile VR game development <br>
+      - Create and optimize Unity shaders, art assets and game VFX <br>
+      - Implement and maintain tools to improve art pipeline <br>
+
+# publications:
+#   - title: Random title of paper. An interesting one.
+#     link: "#"
+#     authors: John E. Doe
+#     conference: Some conference, 2016
+
+#   - title: Second title of paper. An interesting one too.
+#     link: "#"
+#     authors: John E. Doe
+#     conference: Some conference again, 2018
+
+# projects:
+#   - title: Cool Project 
+#     link: #
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua.
+
+#   - title: Cool Project 
+#     link: #
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua.
+
+
+# # Volunteering
+# volunteering:
+#   - time: 2020-Present
+#     role: PR Manager
+#     company: Some random organization
+#     details: |
+#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+#       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+#       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+# EDUCATION
 volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - time: 2014 – 2016
+    role: Master of Digital Media (MDM)
+    company: University of British Columbia (UBC), Vancouver, BC, Canada 
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      - A master degree program contains multiple industrial projects <br>
+      - Study focuses on Game Development and Computer Graphics <br>
+      - Student projects involve mobile APP development, PS Vita game prototyping (client: SONY Interactive Entertainment,Japan), AR/VR game development using Unity. <br>
+
+  - time: 2010 – 2014
+    role: Engineering (B.Eng)
+    company: Shandong University, Shandong, China
+    details: |
+      - Major in Digital Media Technology at Computer Science department <br>
+      - Study focuses on computer programming (C++/Java/Python), computer graphics and film-making <br>
+
+freelance:
+  - time: 2014 – 2016
+    role: Master of Digital Media (MDM)
+    company: University of British Columbia (UBC), Vancouver, BC, Canada 
+    details: |
+      - Contracted Technical Art tool developer and consultant <br>
+      - Independent game developer <br>
+      - Product Photographer <br>

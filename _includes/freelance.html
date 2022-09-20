@@ -1,0 +1,12 @@
+{% assign freelance = site.data.data.freelance %}
+{% if freelance %}
+<section class="volunteering">
+    <h2 class="title">Freelance</h2>
+    {% for vol in freelance %}
+    <div class="volunteering-item">
+        <div class="details">{{vol.details}}</div>
+    </div>
+    
+    {% endfor %}
+</section>
+{% endif %}

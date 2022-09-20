@@ -1,5 +1,5 @@
 .header {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -18,11 +18,5 @@
         cursor: pointer;
         color: var(--fg-color-dark);
         
-    }
-    .subtitle{
-        color: var(--fg-color-dark);
-        font-weight: bolder;
-        position: relative;
-        top: -40px;
     }
 }

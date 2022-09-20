@@ -2,6 +2,7 @@ name: Victor Li
 support_dark_mode: true
 fork: false
 
+
 # Sidebar
 contact:
   email: viclw17@gmail.com
@@ -16,9 +17,10 @@ contact:
   shadertoy: https://www.shadertoy.com/user/viclw17
 
 
-# languages:
-#   - idiom: English
-#   - idiom: Mandarin
+languages:
+  - idiom: English
+  - idiom: Mandarin
+
 
 # education:
 #   - degree: MSc in Informatics
@@ -29,17 +31,23 @@ contact:
 #     time: 2010-2014
 #     university: Ionian University
 
+
 skills:
   - category: Technical
     skill: 
       - Unreal Engine
-      - Shader Dev. (GLSL/HLSL)
-      - DCC - (Maya/Blender)
+      - Shader (GLSL/HLSL)
+      - DCC (Maya/Blender)
       - Perforce / Git
       - Python
       - C/C++
       - Unity
+      - Houdini
+      - Video Editing
+      - Game Design
+      - VR Development
       - Web & Graphic Design
+      - Graphics APIs (OpenGL)
 
   # - category: Frontend
   #   skill:
@@ -50,9 +58,11 @@ skills:
   #     - Docker
   #     - Kubernetes 
 
+
 # Profile
 profile: |
-  Unreal Engine Developer and Technical Artist with great passion and production experience for game development, real-time virtual production and computer graphics research. Experienced in working closely with both artists and engineers to implement and optimize digital assets, tackle rendering and pipeline problems and push for a better workflow and production quality. 
+  Unreal Engine Developer and Technical Artist with great passion and production experience for game development, real-time virtual production and computer graphics research. Experienced in working closely with both artists and engineers to implement and optimize digital assets, tackle rendering and pipeline problems and push for a better workflow and production quality.
+
 
 # Experience
 experience:
@@ -61,27 +71,27 @@ experience:
     company: Method Studio / Company 3
     details: |
       - Provide Unreal Engine technical support for real-time CG production <br>
-      - R&D workflow and pipeline tools <br>
+      - R&D workflow and pipeline tools <br>
       - Support Technical Artist on troubleshooting rendering issues <br>
 
   
   - role: Senior Unreal Engine Technical Director 
-    time: 2021 – 2022
-    company: Versatile Media Ltd
+    time: 2021 - 2022
+    company: Versatile Media Ltd.
     details: |
-      - Provide Unreal Engine technical support for all departments (Mocap, Look Dev, Asset, Animation) during film - production <br>
-      - Manage film projects' shot construction and asset implementation; support team on utilizing Unreal Engine Sequencer - and Take Recorder <br>
-      - Lead R&amp;D tasks for improving and automating real-time virtual production workflow <br>
+      - Provide Unreal Engine technical support for all departments (Mocap, Look Dev, Asset, Animation) during film production <br>
+      - Manage film projects' shot construction and asset implementation; support team on utilizing Unreal Engine Sequencer and Take Recorder <br>
+      - Lead R&D tasks for improving and automating real-time virtual production workflow <br>
 
 
   - role: Unreal Engine Technical Artist
-    time: 2020 – 2021
-    company: Versatile Media Ltd
+    time: 2020 - 2021
+    company: Versatile Media Ltd.
     details: |
         - Build shaders, material libraries, real-time VFX and rendering workflows for Look Dev team and Asset team <br>
         - Develop production pipeline tools and plugins for Unreal Engine using Blueprint, Python and C++ <br>
         - Profile and optimize Unreal Engine scene to troubleshoot rendering and Mocap performance issues <br>
-        - Facilitate AI department on machine learning R&amp;D for facial performance capture <br>
+        - Facilitate AI department on machine learning R&D for facial performance capture <br>
 
 
   - role: Technical Artist
@@ -112,16 +122,13 @@ experience:
       - Create and optimize Unity shaders, art assets and game VFX <br>
       - Implement and maintain tools to improve art pipeline <br>
 
+
 # publications:
 #   - title: Random title of paper. An interesting one.
 #     link: "#"
 #     authors: John E. Doe
 #     conference: Some conference, 2016
 
-#   - title: Second title of paper. An interesting one too.
-#     link: "#"
-#     authors: John E. Doe
-#     conference: Some conference again, 2018
 
 # projects:
 #   - title: Cool Project 
@@ -130,14 +137,8 @@ experience:
 #       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 #       tempor incididunt ut labore et dolore magna aliqua.
 
-#   - title: Cool Project 
-#     link: #
-#     details: |
-#       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-#       tempor incididunt ut labore et dolore magna aliqua.
 
-
-# # Volunteering
+# Volunteering
 # volunteering:
 #   - time: 2020-Present
 #     role: PR Manager
@@ -149,26 +150,26 @@ experience:
 
 
 # EDUCATION
-volunteering:
+education-long:
   - time: 2014 – 2016
-    role: Master of Digital Media (MDM)
-    company: University of British Columbia (UBC), Vancouver, BC, Canada 
+    degree: Master of Digital Media (MDM)
+    university: University of British Columbia (UBC)
     details: |
       - A master degree program contains multiple industrial projects <br>
       - Study focuses on Game Development and Computer Graphics <br>
       - Student projects involve mobile APP development, PS Vita game prototyping (client: SONY Interactive Entertainment,Japan), AR/VR game development using Unity. <br>
 
   - time: 2010 – 2014
-    role: Engineering (B.Eng)
-    company: Shandong University, Shandong, China
+    degree: Engineering (B.Eng)
+    university: Shandong University
     details: |
       - Major in Digital Media Technology at Computer Science department <br>
       - Study focuses on computer programming (C++/Java/Python), computer graphics and film-making <br>
 
+# FREELANCE
 freelance:
-  - time: 2014 – 2016
-    role: Master of Digital Media (MDM)
-    company: University of British Columbia (UBC), Vancouver, BC, Canada 
+  - time:
+    role: 
     details: |
       - Contracted Technical Art tool developer and consultant <br>
       - Independent game developer <br>

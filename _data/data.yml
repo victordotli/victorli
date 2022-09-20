@@ -17,9 +17,9 @@ contact:
   shadertoy: https://www.shadertoy.com/user/viclw17
 
 
-languages:
-  - idiom: English
-  - idiom: Mandarin
+# languages:
+#   - idiom: English
+#   - idiom: Mandarin
 
 
 # education:

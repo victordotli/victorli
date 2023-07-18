@@ -61,7 +61,7 @@ skills:
 
 # Profile
 profile: |
-  Unreal Engine Developer and Technical Artist with great passion and production experience for game development, real-time virtual production and computer graphics research. Experienced in working closely with both artists and engineers to implement and optimize digital assets, tackle rendering and pipeline problems and push for a better workflow and production quality.
+  Technical Artist and Unreal Engine Developer with a strong passion for game development, real-time virtual production, and computer graphics research. Proven track record in collaborating closely with artists and engineers to efficiently implement and optimize digital assets, address rendering and pipeline challenges, and drive improved workflows and production quality.
 
 
 # Experience
@@ -70,70 +70,71 @@ experience:
     time: 2023 -
     company: Lucasfilm Ltd. (Project Based)
     details: |
-      - Create blueprints, utility widgets and plugins for Virtual Art Department <br>
-      - Maintain and improve existing blueprint toolset to meet show specific requirements <br>
-      - Support and optimize VR scouting workflow for virtual production <br>
-      - Troubleshoot shaders and rendering issues during production <br>
+      - Develop blueprint tools, utility widgets, and plugins for the Virtual Art Department to enhance level editing and artist workflow <br>
+      - Proactively maintain and improve the existing blueprint toolset to meet show specific requirements <br>
+      - Provide extensive support and optimization for VR scouting workflow in virtual production (Meta Quest VR Headset) <br>
+      - Identify and resolve shader and rendering issues throughout the production process <br>
   
   
   - role: Senior Unreal Engine Technical Director
     time: 2022 -
     company: Method Studios / Company 3
     details: |
-      - R&D real-time cinematic production workflow in Unreal Engine 5 <br>
-      - Develop pipeline tools and plugins in Unreal Engine with Utility Blueprints/Python/C++ <br>
-      - Create and maintain in-house Python libraries for automating assets ingestion and sequencer generation <br>
-      - Support Artists and Technical Artists on troubleshooting materials and rendering issues <br>
+      - Conduct R&D to enhance real-time cinematic production workflow in Unreal Engine 5 <br>
+      - Develop efficient pipeline tools and plugins using Utility Blueprints, Python, and C++ <br>
+      - Create and maintain in-house Python libraries to automate assets ingestion and sequencer generation <br>
+      - Provide support to Artists and Technical Artists, troubleshooting materials and rendering issues for optimal results <br>
 
   
   - role: Senior Unreal Engine Technical Director 
     time: 2021 - 2022
     company: Versatile Media Ltd.
     details: |
-      - Provide Unreal Engine general technical support for all departments (Mocap, Look Dev, Asset, Animation) during real-time film production <br>
-      - Manage real-time cinematic projects' shot construction (sequencer structures, camera bindings and director BP) <br>
-      - Support team on utilizing Unreal Engine Sequencer and Take Recorder during editorial, VCam shooting and Mocap sessions <br>
-      - Support Metahuman setup and assets ingestion and implementation <br>
-      - Lead R&D tasks for improving and automating real-time virtual production on-set workflow <br>
+      - Provided Unreal Engine general technical support for all departments (Mocap, Look Dev, Asset, Animation) throughout real-time film production <br>
+      - Managed shot construction for real-time cinematic projects, including sequencer structures, camera bindings, and director BP <br>
+      - Provided guidance to the team in utilizing Unreal Engine Sequencer and Take Recorder for editorial, VCam shooting, and Mocap sessions <br>
+      - Supported Metahuman setup and assets ingestion and implementation <br>
+      - Led R&D tasks for improving and automating real-time virtual production on-set workflow <br>
 
 
   - role: Unreal Engine Technical Artist
     time: 2020 - 2021
     company: Versatile Media Ltd.
     details: |
-        - Build shaders, material libraries, real-time VFX for Look Dev team and Asset team <br>
-        - Develop pipeline tools and plugins with Utility Blueprints/Python/C++ <br>
-        - Profile and optimize engine levels to tackle rendering and Mocap performance issues <br>
-        - Facilitate AI department on machine learning R&D for facial performance capture <br>
+        - Built shaders, material libraries, and real-time VFX for Look Dev team and Asset team <br>
+        - Developed efficient pipeline tools and plugins using Utility Blueprints, Python, and C++ <br>
+        - Profiled and optimized engine levels to address rendering and Mocap performance issues <br>
+        - Supported AI department in machine learning R&D for facial performance capture <br>
 
 
   - role: Technical Artist
     time: 2019 – 2020
     company: IGG Canada
     details: |
-        - Provide pipeline automation support using Blueprint and Python API for game cinematics <br>
-        - Maintain and optimize pipeline tools and troubleshoot rendering issues <br>
+        - Provided pipeline automation for game cinematics using Blueprint and Python API<br>
+        - Continuously maintained and optimized Blueprint tools to ensure seamless workflows across multiple departments <br>
+        - Resolved rendering issues in final renders, ensuring high-quality output and a smooth production pipeline <br>
 
 
   - role: Software Engineer (Graphics & Rendering)
     time: 2018 – 2019
     company: Archiact
     details: |
-        - Work with Unreal Engine for PC (HTC Vive/Oculus Rift), console (PSVR) and mobile (Oculus Quest) VR game development <br>
-        - Create and optimize shaders and materials (GLSL/HLSL) <br>
-        - Create game VFX in Unreal Engine with various DCC (Maya/Blender/Houdini) <br>
-        - Profile games for better performance with RenderDoc and RazorGPU <br>
-        - Optimize game assets for various VR hardware and shipping platforms <br>
-        - Collaborate with engineers and designers on game assets implementation (Blueprint/C++) <br>
+        - Specialized in Unreal Engine for VR game development across multiple platforms including PC (HTC Vive/Oculus Rift), console (PSVR), and mobile (Oculus Quest) <br>
+        - Created and optimized shaders and materials (GLSL/HLSL) to enhance visual quality and performance <br>
+        - Utilized RenderDoc and RazorGPU to profile games, ensuring optimal performance and identifying areas for improvement <br>
+        - Optimized game assets to ensure compatibility and performance across different VR hardware and shipping platforms <br>
+        - Collaborated closely with engineers and designers to implement game assets using Blueprint and C++ for seamless integration <br>
 
 
   - role: Technical Artist
-    time: 2017 – 2018
+    time: 2016 – 2018
     company: Archiact
     details: |
-      - Work inside Unity and Unreal Engine on PC and mobile VR game development <br>
-      - Create and optimize Unity shaders, art assets and game VFX <br>
-      - Implement and maintain tools to improve art pipeline <br>
+      - Worked with both Unity and Unreal Engine for VR game development on both PC and mobile platforms <br>
+      - Responsible for creating game VFX in Unreal Engine using various DCC tools such as Maya, Blender, and Houdini <br>
+      - Created and optimized Unity shaders, art assets and game VFX
+      - Implemented and maintained tools to enhance the art pipeline, streamlining workflows and improving efficiency <br>
 
 
 # publications:

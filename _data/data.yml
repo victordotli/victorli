@@ -66,8 +66,17 @@ profile: |
 
 # Experience
 experience:
-  - role: Senior Unreal Engine TA
+  - role: Senior Cinematic Technical Artist
     time: 2023 -
+    company: Microsoft / XBox Game Studios / The Coalition
+    details: |
+      - Collaborate with engineers and leads in the creation and maintenance of animation workflow, tools and techniques
+      - Provide technical support on building complex real-time cinematic scenes and in-game acting moments
+      - Improve animation pipeline and provide solutions for technical animation efficiencies and issues
+  
+  
+  - role: Senior Unreal Engine TA
+    time: 2023 
     company: Lucasfilm Ltd. (Project Based)
     details: |
       - Develop blueprint tools, utility widgets, and plugins for the Virtual Art Department to enhance level editing and artist workflow <br>
@@ -77,7 +86,7 @@ experience:
   
   
   - role: Senior Unreal Engine Technical Director
-    time: 2022 -
+    time: 2022 - 2023
     company: Method Studios / Company 3
     details: |
       - Conduct R&D to enhance real-time cinematic production workflow in Unreal Engine 5 <br>
